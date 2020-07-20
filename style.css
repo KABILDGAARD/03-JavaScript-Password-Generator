@@ -116,10 +116,10 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 45px;
+  padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 60px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
@@ -267,4 +267,7 @@ body.single-toggle .drop {
 body.single-toggle .drop:nth-child(10) {
   display: block;
 }
+
+
+/*Footer*/
 
