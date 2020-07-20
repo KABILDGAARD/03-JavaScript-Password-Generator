@@ -17,6 +17,7 @@ body,
 body {
   font-family: sans-serif;
   background-color: none;
+  color: white;
 }
 
 .wrapper {
@@ -267,6 +268,9 @@ body.single-toggle .drop {
 body.single-toggle .drop:nth-child(10) {
   display: block;
 }
+
+
+
 
 
 /*Footer*/
