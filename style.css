@@ -36,7 +36,7 @@ header {
 .card {
   background-color: black;
   font-family: sans-serif;
-  border-radius: 5px;
+  border-radius: 20px;
   border-width: 1px;
   border-color: black;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -96,7 +96,7 @@ header {
 }
 
 .btn:hover{
-  background: gray;
+  background: black;
   color: white;
 }
 
@@ -116,16 +116,16 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 45px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 85px;
+  padding-bottom: 15px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px dashed #c0c7cf;
-  border-radius: 6px;
+  border-radius: 10px;
   resize: none;
   overflow: hidden;
 }
