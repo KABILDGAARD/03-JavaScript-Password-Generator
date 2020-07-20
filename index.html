@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+
+<!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+
+<!--Password Generator-->
+    <div class="wrapper">
+      <header>
+        <h1></h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+
+          <div class="container">
+            <div class="result-container">
+                <span id="result"></span>
+            </div>
+            <div class="settings">
+                <div class="setting .neu">
+                    <label>Password length</label>
+                    <input type="number" id="length" min='1' max='128' value='12' />
+                <div class="setting">
+                    <label>Uppercase letters</label>
+                    <input type="checkbox" id="uppercase" checked />
+                </div>
+                <div class="setting">
+                    <label>Lowercase letters</label>
+                    <input type="checkbox" id="lowercase" checked />
+                </div>
+                <div class="setting">
+                    <label>Numbers</label>
+                    <input type="checkbox" id="numbers" checked />
+                </div>
+                <div class="setting">
+                    <label>Symbols</label>
+                    <input type="checkbox" id="symbols" checked />
+                </div>
+            </div>
+        </div>
+
+          <textarea
+            readonly
+            id="textarea"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password">
+          </textarea>
+
+<!--Buttons-->
+          <row>
+            <button id="generate" class="btn">Generate Password</button>
+            <button id="copy" class="btn" onclick="copy()">Copy to Clipboard</button>
+            </row>
+        </div>
+        <div class="card-footer">
+        </div>
+      </div>
+    </div>
+
+<!--Rain Drops-->
+<body class="back-row-toggle splat-toggle">
+  <div class="rain front-row"></div>
+  <div class="rain back-row"></div>
+  <div class="toggles">
+    <div class="toggle active"></div>
+  </div>
+</body>
+
+
+  <!-- Footer Start -->
+    <footer class="page-footer font-small font-weight-bold text-uppercase fixed-bottom bg-dark">
+
+  <!-- Copyright -->
+    <div style="color:lightslategray;" class="footer-copyright text-center py-3">Copyright 2020© Password Generator 1.0
+    </div>
+  </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+ 
+</html>
