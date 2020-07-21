@@ -7,7 +7,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 // declare varaibles from dom after load to make sure they are current 
@@ -28,6 +27,11 @@ document.querySelector("#generate").addEventListener('click', () => {
 
     const randSelector = [];
     const password = [];
+
+//Nothing Selected
+    if(upper === false & lower === false & symbols === false & numbers === false){
+      alert("You must check atleast one box")
+    }
   
 //String.fromCharCode();
     if (upper === true) {
