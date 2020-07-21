@@ -35,3 +35,9 @@ The URL of the deployed application.
 
 
 The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
+Submitted:
+
+URL Deployed Application- https://kabildgaard.github.io/03-JavaScript-Password-Generator/ 
+
+URL GitHub- https://github.com/KABILDGAARD/03-JavaScript-Password-Generator
